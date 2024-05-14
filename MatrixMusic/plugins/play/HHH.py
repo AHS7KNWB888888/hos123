@@ -13,7 +13,7 @@ from MatrixMusic import app
     filters.command(["الاوامر"],""))
 async def italy(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/a25271d31dd6e1bca849f.jpg",
+        photo=f"https://telegra.ph/file/c8b66a497b4fdd66073a0.jpg",
         caption=f"""✅ **مرحبا بك عزيزي** {message.from_user.mention}
      
 ✅ **اليك قائمة اوامر سورس حـسـام ♬**
@@ -100,7 +100,7 @@ async def italy(_, query: CallbackQuery):
                         "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀", callback_data=f"italydev"),
+                        "𝑀𝐔𝑆𝐼𝐶 𝟑 𝐓 𝐛", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -131,7 +131,7 @@ async def italy(_, query: CallbackQuery):
                         "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀", callback_data=f"italydev"),
+                        "𝑀𝐔𝑆𝐼𝐶 𝟑 𝐓 𝐛", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -142,7 +142,7 @@ async def italy(_, query: CallbackQuery):
 #كول باك اوامر مميزات السورس
 @app.on_callback_query(filters.regex("italysou"))
 async def italy(_, query: CallbackQuery):
-   await query.edit_message_caption(caption =f"""✅ **اليك قائمة اوامر سورس حـسـام ♬**
+   await query.edit_message_caption(caption =f"""✅ **اليك قائمة اوامر سورس عتب ♬**
    المس الامر لنسخ والاستخدام
 •▬▭࣪▬•| 𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀 |•▬▭࣪▬•
 **- لعرض كليشه السورس اكتب :** `سورس` .
@@ -192,7 +192,7 @@ async def ayamr(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "𝑯𝑶𝑺𝑺𝑨𝑴 𝑨𝑳 𝑯𝑶𝑳𝑨𝑵𝑫𝒀 ✶ ✶🇳🇱", url=f"https://t.me/H_OS_S_AM"), 
+                        "𝟑 𝐓 𝐛", url=f"https://t.me/O_U_1S"), 
                 ],[               
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
