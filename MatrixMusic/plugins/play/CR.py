@@ -21,14 +21,14 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/c8b66a497b4fdd66073a0.jpg",
-        caption=f"""W𝐞𝐥𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐡𝐨𝐬𝐬𝐚𝐦 𝐦𝐮𝐬𝐢𝐜""",
+        caption=f"""W𝐞𝐥𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝟑 𝐓 𝐛 𝐦𝐮𝐬𝐢𝐜""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "G𝑟𝑜𝑢𝑝", url=f"https://t.me/O_U_Q1"), 
                  InlineKeyboardButton(
-                   "𝑺𝑶𝑼𝑹𝑪𝑬 ",       url=f"https://t.me/UU_GR"), 
+                   "𝑺𝑶𝑼𝑹𝑪𝑬 ",       url=f"https://t.me/O_U_Q1"), 
                  
              ],[ 
             InlineKeyboardButton(
@@ -54,7 +54,7 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    command(["المطور حسام"])
+    command(["المطور 𝟑 𝐓 𝐛"])
     
     
 )
@@ -75,12 +75,12 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["الهولندي" , "حسام","مبرمج السورس"])
+    command(["الهولندي" , "𝟑 𝐓 𝐛","مبرمج السورس"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("H_OS_S_AM")
+    usr = await client.get_chat("O_U_1S")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"معلومات مطور السورس.\n\n¦dev :{name}\n\n ¦user :@{usr.username}\n\n ¦id :`{usr.id}`\n\n ¦boi :{usr.bio}\n\n𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", 
