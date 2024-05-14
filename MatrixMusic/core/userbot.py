@@ -135,7 +135,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.one.join_chat("O_U_1S")
+                await self.one.join_chat("O_U_Q1")
                 await self.one.join_chat("O_U_Q1")
             except:
                 pass
