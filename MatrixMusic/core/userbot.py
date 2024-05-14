@@ -93,7 +93,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.one.join_chat("O_U_Q1)
+                await self.one.join_chat("O_U_Q1")
                 await self.one.join_chat("O_U_Q1")
             except:
                 pass
