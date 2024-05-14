@@ -6,7 +6,7 @@ from MatrixMusic import app
 import re
 import sys
 
-GAME_MESSAGE = "⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝟑 𝐓 𝐛⌝━⊶★━⩺\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب عتب\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝━⊶★━⩺"
+GAME_MESSAGE = "⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝟑 𝐓 𝐛⌝━⊶★━⩺\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب عتب\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝟑 𝐓 𝐛⌝━⊶★━⩺"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
@@ -306,7 +306,7 @@ async def kaompj(client, message):
 )
 async def zohary(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e1ed519fb52f03e86da0c.jpg",
+        photo=f"https://telegra.ph/file/c8b66a497b4fdd66073a0.jpg",
         caption= GAME_MESSAGE,
         reply_markup=InlineKeyboardMarkup(GAME_BUTTONS)
     )  
@@ -314,7 +314,7 @@ async def zohary(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "⩹━★⊷━⌞𝗛𝗢𝗦𝗦𝗔𝗠 𝗚𝗔𝗠𝗘𝗦 ℡ ‌₎ ✨??⇣✦⌝━⊶★━⩺\n\nمرحبا بك في قسم العاب حسام 3D\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝━⊶★━⩺"
+             GAME1_MESSAGE = "⩹━★⊷━⌞𝟑 𝐓 𝐛 𝗚𝗔𝗠𝗘𝗦 ℡ ‌₎ ✨??⇣✦⌝━⊶★━⩺\n\nمرحبا بك في قسم العاب حسام 3D\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝟑 𝐓 𝐛⌝━⊶★━⩺"
 
              GAME1_BUTTONS = [
                  [
@@ -365,7 +365,7 @@ async def callback_query(client, CallbackQuery):
                       InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
                       InlineKeyboardButton ('★¦العاب حسام', callback_data= 'GAME2')
                       ],[
-        InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝⚡️', url =f"https://t.me/UU_GR")              
+        InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝟑 𝐓 𝐛', url =f"https://t.me/O_U_Q1")              
                  ],[
                 InlineKeyboardButton(
                         "رجوع", callback_data="close"),
@@ -378,11 +378,11 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "⩹━★⊷━⌞ 𝗚𝗔𝗠𝗘𝗦⌝━⊶★━⩺\n\n★¦العاب حسام\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪?? 𝑯𝑶𝑺𝑺??𝑴⌝━⊶★━⩺." 
+               SOURCE_GAME = "⩹━★⊷━⌞ 𝗚𝗔𝗠𝗘𝗦⌝━⊶★━⩺\n\n★¦العاب حسام\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪?? 𝟑 𝐓 𝐛??𝑴⌝━⊶★━⩺." 
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝⚡️', url =f"https://t.me/UU_GR")
+                      InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝⚡️', url =f"https://t.me/O_U_Q1")
                       ],[
                          InlineKeyboardButton ('رجوع', callback_data= 'GAME')
                     ]
