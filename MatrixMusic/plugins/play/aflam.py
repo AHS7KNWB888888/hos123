@@ -2,7 +2,7 @@
         [InlineKeyboardButton("Ⴆᥲ️ᥴk", callback_data="Yrw1 " + str(m.from_user.id))],
         [InlineKeyboardButton("➡️ التالي", callback_data="Yrw3 " + str(m.from_user.id))],
         [InlineKeyboardButton("رجوع🗑", callback_data="moslsl " + str(m.from_user.id))],
-        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝟑 𝐓 𝐛", url=f"https://t.me/O_U_1S")],
 """
 
 import asyncio
@@ -24,7 +24,7 @@ async def aflamAR(c: Client, m: Message):
         [InlineKeyboardButton("مسلسلات 📼", callback_data="moslsl " + str(m.from_user.id))],
         [InlineKeyboardButton("كارتون للاطفال 🎭 ", callback_data="msrahia " + str(m.from_user.id))],
 
-        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝟑 𝐓 𝐛", url=f"https://t.me/O_U_1S")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
@@ -44,7 +44,7 @@ async def aflamAR2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("مسلسلات 📼", callback_data="moslsl " + str(m.from_user.id))],
         [InlineKeyboardButton("كارتون للاطفال 🎭 ", callback_data="msrahia " + str(m.from_user.id))],
 
-        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
+        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝟑 𝐓 𝐛", url=f"https://t.me/O_U_1S")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
