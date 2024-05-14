@@ -40,7 +40,7 @@ async def italy(client: Client, message: Message):
                         "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀", callback_data=f"italydev"),
+                        "𝑀𝐔𝑆𝐼𝐶 𝟑 𝐓 𝐛", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -70,7 +70,7 @@ async def italy(_, query: CallbackQuery):
                         "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "𝑀𝐔𝑆𝐼𝐶 𝐻𝑂𝑆𝑆𝐴𝑀", callback_data=f"italydev"),
+                        "𝑀𝐔𝑆𝐼𝐶 𝟑 𝐓 𝐛", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
